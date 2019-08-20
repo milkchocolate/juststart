@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController
 class ItemController {
     @GetMapping("/items")
     fun getItems(): Array<String> {
-        return arrayOf("apple", "mongo");
+        return arrayOf("apple", "mongo", "broccoli");
     }
 }
