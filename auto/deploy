@@ -9,7 +9,7 @@ STACK_NAME=juststart
 S3_BUCKET=beijing-nho-deployment
 
 ./gradlew clean
-./gradlew jar
+./gradlew bootJar
 
 aws cloudformation package \
   --region $AWS_REGION \
